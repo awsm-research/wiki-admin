@@ -36,6 +36,9 @@ If you want to list delete unwanted kernels,
 
 > jupyter kernelspec uninstall unwanted-kernel
 
+If you want to remove the whole environment (e.g., bughunter),
+
+> conda env remove -n bughunter
 
 # Install packages to all users
 Since the python virtual environment is at /opt/jupyterhub/, so we need to use the following command.
