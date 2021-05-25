@@ -3,7 +3,7 @@
 
 | Server Name | CPU | Ram | GPU | Hard Drive | Services |
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:| -----:|
-| m1.bughunter.cloud.edu.au | AMD Ryzen 9 3950X (Base: 3.50GHz, Boost: 4.70GHz / 64MB Cache / AM4 / 32 Cores | 64GB | RTX 3090 24GB | 4 TB | JupyterHub + Rstudio + Remote Desktop + SSH + FTP| 
+| m1.bughunter.cloud.edu.au (130.194.73.251) | AMD Ryzen 9 3950X (Base: 3.50GHz, Boost: 4.70GHz / 64MB Cache / AM4 / 32 Cores | 64GB | RTX 3090 24GB | 4 TB | JupyterHub + Rstudio + Remote Desktop + SSH + FTP| 
 | m3.bughunter.cloud.edu.au | Intel i7 12 Cores | 64GB | RTX 2080 Ti 11GB | 4 TB | JupyterHub + Rstudio + Remote Desktop + SSH + FTP| 
 
 
