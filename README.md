@@ -19,7 +19,7 @@ Try activating the environment by typing
 
 To make it appear in Jupyterhub, type in the terminal window the following
 
-> /opt/conda/envs/python/bin/python -m ipykernel install --user --name bughunter --display-name "Python (bughunter)"
+> python -m ipykernel install --user --name bughunter --display-name "Python (bughunter)"
 
 You can install any package you want using “conda install PACKAGENAME“, or if a particular version is needed “conda install PACKAGENAME=versionnumber”
 
