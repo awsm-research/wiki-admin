@@ -11,42 +11,46 @@
 
 Create a new environment (see the cheatsheet).  Lets call the environment name myenv (you can give it any name you want)
 
-> conda create --name bughunter
+    conda create --name bughunter
 
 Try activating the environment by typing
 
-> conda activate bughunter
+    conda activate bughunter
 
 To make it appear in Jupyterhub, type in the terminal window the following
 
-> python -m ipykernel install --user --name bughunter --display-name "Python (bughunter)"
+    python -m ipykernel install --user --name bughunter --display-name "Python (bughunter)"
+
+Note. run the following if "No module named ipykernel" then rerun the above code to set up your ipykernel under your env 
+
+    conda install ipykernel
 
 You can install any package you want using “conda install PACKAGENAME“, or if a particular version is needed “conda install PACKAGENAME=versionnumber”
 
-> pip install --user nltk gdown
+    pip install --user nltk gdown
 
 If you want to list all conda environments,
 
-> conda info --envs
+    conda info --envs
 
 If you want to list all available kernels,
 
-> jupyter kernelspec list
+    jupyter kernelspec list
 
 If you want to list delete unwanted kernels,
 
-> jupyter kernelspec uninstall unwanted-kernel
+    jupyter kernelspec uninstall unwanted-kernel
 
 If you want to remove the whole environment (e.g., bughunter),
 
-> conda env remove -n bughunter
+    conda env remove -n bughunter
 
 # Install packages to all users
 Since the python virtual environment is at /opt/jupyterhub/, so we need to use the following command.
 
-> sudo /opt/jupyterhub/bin/pip install pydriller pandas scikit-learn matplotlib html5lib beautifulsoup4 seaborn keras tensorflow-gpu torch torchvision nltk numpy scipy statsmodels textblob gensim spacy polygot
+    sudo /opt/jupyterhub/bin/pip install pydriller pandas scikit-learn matplotlib html5lib beautifulsoup4 seaborn keras tensorflow-gpu torch torchvision nltk numpy scipy statsmodels textblob gensim spacy polygot
 
 
 # Install R kernel for Jupyterhub
 
-> install.packages('IRkernel')
+    install.packages('IRkernel')
